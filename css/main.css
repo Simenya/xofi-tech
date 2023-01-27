@@ -1,0 +1,187 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.jumbotron {
+    background: url('../img/madonna.jpeg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 95vh;
+}
+.banner {
+    max-width: 360px;
+    height: 350px;
+    background-color: rgba(10, 10, 10, .6);
+}
+.jumbotron h1 {
+    color: #ffffff;
+    padding-top: 8rem;
+}
+
+.jumbotron p {
+    color: #ffffff;
+    text-align: center;
+}
+.glyphicon {
+    font-size: 2.5rem;
+}
+.glyphicon-star {
+    color: #5cb85c;
+}
+.lead {
+    margin-left: .55rem;
+}
+
+/* testtimonial */
+.testimonial {
+    padding-bottom: 2.5rem;
+}
+.testimonial-text {
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.reviewer {
+    font-weight: bold;
+}
+.image {
+    background: url('../img/header-container-bg.jpg');
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+    /* margin-bottom: 1.5rem; */
+    margin: 2rem;
+}
+
+/*available section styling*/
+#available-rooms {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#available-rooms .col-md-4 {
+    margin-bottom: 3rem;
+}
+
+#more-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* contact area section */
+textarea {
+    width: 420px;
+    height: 120px;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+}
+/* details */
+#available-rooms .lead {
+    color: #202020;
+    font-weight: bold;
+    /* border-o: 1px solid #c5c5c5; */
+}
+/* images */
+.madonna {
+    background: url('../img/madonna.jpeg');
+    background-size: cover;
+}
+/* images */
+.bavana {
+    background: url('../img/Bavana.jpeg');
+    background-size: cover;
+}
+/* image */
+.servite {
+    background: url('../img/servite.jpg');
+    background-size: cover;
+}
+.erima {
+    background: url('../img/erima.jpg');
+    background-size: cover;
+}
+.goodshepherd{
+    background: url('../img/goodshepherd.jpg');
+    background-size: cover;
+}
+.elite{
+    background: url('../img/elite.jpg');
+    background-size: cover;
+}
+/* image */
+.wamala{
+    background: url('../img/Wamala.jpeg');
+    background-size: cover;
+}
+.city{
+    background: url('../img/city.jpeg');
+    background-size: cover;
+}
+/* image */ 
+.kabojja{
+    background: url('../img/kabojja.jpg');
+    background-size: cover;
+}
+/* list styling */
+ul {
+    list-style-type: circle;    
+}
+
+.services li {
+    font-size: 18px;
+    color: #202020;
+}
+
+
+/* modal styling */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+
+
+  /* contact session */
+  .social {
+      background: url('../img/')
+  }
+
+
